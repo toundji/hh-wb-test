@@ -14,11 +14,11 @@
                 "./src/*",
                 "./dist/*"
             ]
-        }
+        },
     },
     "include": [
         "src/**/*.ts",
-        "src/**/*.js",
+        "src/**/*.js"
     ],
     "exclude": [
         "node_modules",

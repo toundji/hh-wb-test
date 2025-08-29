@@ -3,14 +3,11 @@
  * @returns {Promise<void>}
  */
 export async function up(knex) {
-    return knex.schema.createTable("wb_prices_sheets", (table) => {
+    return knex.schema.createTable("wb_prices", (table) => {
         table.increments("id").primary();
-
-        table.string("code").notNullable();
         table.string("date").notNullable();
 
         
-        table.decimal("box_delivery_and_storage_expr", 10, 2).nullable();
         table.decimal("box_delivery_base", 10, 2).nullable();
         table.decimal("box_delivery_coef_expr", 10, 2).nullable();
         table.decimal("box_delivery_liter", 10, 2).nullable();
@@ -28,7 +25,7 @@ export async function up(knex) {
         
         table.timestamps(true, true);
 
-        table.unique(["code", "date"]);
+        table.unique([ "date", "geo_name", "warehouse_name",]);
         
         });
 }
@@ -38,5 +35,5 @@ export async function up(knex) {
  * @returns {Promise<void>}
  */
 export async function down(knex) {
-    return knex.schema.dropTable('wb_prices_sheets');
+    return knex.schema.dropTable('wb_prices');
 }

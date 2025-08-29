@@ -1,12 +1,12 @@
 {
     "wb": {
+        "date": "2025-08-01",
         "response": {
             "data": {
                 "dtNextBox": "2025-01-05",
                 "dtTillMax": "2025-09-01",
                 "warehouseList": [
                     {
-                        "boxDeliveryAndStorageExpr": "180",
                         "boxDeliveryBase": "63",
                         "boxDeliveryCoefExpr": "180",
                         "boxDeliveryLiter": "15,3",
@@ -20,7 +20,6 @@
                         "warehouseName": "Коледино"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "200",
                         "boxDeliveryBase": "70",
                         "boxDeliveryCoefExpr": "200",
                         "boxDeliveryLiter": "17",
@@ -34,7 +33,6 @@
                         "warehouseName": "Подольск"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "125",
                         "boxDeliveryBase": "43,75",
                         "boxDeliveryCoefExpr": "125",
                         "boxDeliveryLiter": "10,63",
@@ -48,7 +46,6 @@
                         "warehouseName": "Подольск 4"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "145",
                         "boxDeliveryBase": "50,75",
                         "boxDeliveryCoefExpr": "145",
                         "boxDeliveryLiter": "12,33",
@@ -62,7 +59,6 @@
                         "warehouseName": "Электросталь"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "145",
                         "boxDeliveryBase": "50,75",
                         "boxDeliveryCoefExpr": "145",
                         "boxDeliveryLiter": "12,33",
@@ -76,7 +72,6 @@
                         "warehouseName": "Тула"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "170",
                         "boxDeliveryBase": "59,5",
                         "boxDeliveryCoefExpr": "170",
                         "boxDeliveryLiter": "14,45",
@@ -90,7 +85,6 @@
                         "warehouseName": "Чехов 2"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "195",
                         "boxDeliveryBase": "68,25",
                         "boxDeliveryCoefExpr": "195",
                         "boxDeliveryLiter": "16,58",
@@ -104,7 +98,6 @@
                         "warehouseName": "Белая дача"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "280",
                         "boxDeliveryBase": "98",
                         "boxDeliveryCoefExpr": "280",
                         "boxDeliveryLiter": "23,8",
@@ -118,7 +111,6 @@
                         "warehouseName": "Белые Столбы"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "95",
                         "boxDeliveryBase": "33,25",
                         "boxDeliveryCoefExpr": "95",
                         "boxDeliveryLiter": "8,08",
@@ -132,7 +124,6 @@
                         "warehouseName": "Радумля СГТ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "140",
                         "boxDeliveryBase": "49",
                         "boxDeliveryCoefExpr": "140",
                         "boxDeliveryLiter": "11,9",
@@ -146,7 +137,6 @@
                         "warehouseName": "Рязань (Тюшевское)"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "180",
                         "boxDeliveryBase": "63",
                         "boxDeliveryCoefExpr": "180",
                         "boxDeliveryLiter": "15,3",
@@ -160,7 +150,6 @@
                         "warehouseName": "Котовск"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "75",
                         "boxDeliveryBase": "26,25",
                         "boxDeliveryCoefExpr": "75",
                         "boxDeliveryLiter": "6,38",
@@ -174,7 +163,6 @@
                         "warehouseName": "Обухово СГТ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "75",
                         "boxDeliveryBase": "26,25",
                         "boxDeliveryCoefExpr": "75",
                         "boxDeliveryLiter": "6,38",
@@ -188,7 +176,6 @@
                         "warehouseName": "Голицыно СГТ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "130",
                         "boxDeliveryBase": "45,5",
                         "boxDeliveryCoefExpr": "130",
                         "boxDeliveryLiter": "11,05",
@@ -202,7 +189,6 @@
                         "warehouseName": "Сабурово"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -216,7 +202,6 @@
                         "warehouseName": "Маркетплейс: Центральный федеральный округ СГТ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -230,7 +215,6 @@
                         "warehouseName": "Маркетплейс: Центральный федеральный округ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "190",
                         "boxDeliveryBase": "66,5",
                         "boxDeliveryCoefExpr": "190",
                         "boxDeliveryLiter": "16,15",
@@ -244,7 +228,6 @@
                         "warehouseName": "Щербинка"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "35",
                         "boxDeliveryCoefExpr": "100",
                         "boxDeliveryLiter": "8,5",
@@ -258,7 +241,6 @@
                         "warehouseName": "СЦ Ярославль Громова"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "35",
                         "boxDeliveryCoefExpr": "100",
                         "boxDeliveryLiter": "8,5",
@@ -272,7 +254,6 @@
                         "warehouseName": "СГТ Воронеж КГТ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "35",
                         "boxDeliveryCoefExpr": "100",
                         "boxDeliveryLiter": "8,5",
@@ -286,7 +267,6 @@
                         "warehouseName": "СЦ Софьино"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "35",
                         "boxDeliveryCoefExpr": "100",
                         "boxDeliveryLiter": "8,5",
@@ -300,7 +280,6 @@
                         "warehouseName": "Софьино СГТ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "35",
                         "boxDeliveryCoefExpr": "100",
                         "boxDeliveryLiter": "8,5",
@@ -314,7 +293,6 @@
                         "warehouseName": "Ярославль СГТ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "35",
                         "boxDeliveryCoefExpr": "100",
                         "boxDeliveryLiter": "8,5",
@@ -328,7 +306,6 @@
                         "warehouseName": "Воронеж"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "215",
                         "boxDeliveryBase": "75,25",
                         "boxDeliveryCoefExpr": "215",
                         "boxDeliveryLiter": "18,28",
@@ -342,7 +319,6 @@
                         "warehouseName": "Санкт-Петербург Уткина Заводь"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "95",
                         "boxDeliveryBase": "33,25",
                         "boxDeliveryCoefExpr": "95",
                         "boxDeliveryLiter": "8,08",
@@ -356,7 +332,6 @@
                         "warehouseName": "Шушары СГТ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -370,7 +345,6 @@
                         "warehouseName": "Маркетплейс: Северо-Западный федеральный округ СГТ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -384,7 +358,6 @@
                         "warehouseName": "Маркетплейс: Северо-Западный федеральный округ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "35",
                         "boxDeliveryCoefExpr": "100",
                         "boxDeliveryLiter": "8,5",
@@ -398,7 +371,6 @@
                         "warehouseName": "Санкт-Петербург СГТ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "35",
                         "boxDeliveryCoefExpr": "100",
                         "boxDeliveryLiter": "8,5",
@@ -412,7 +384,6 @@
                         "warehouseName": "СПБ Шушары"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "165",
                         "boxDeliveryBase": "57,75",
                         "boxDeliveryCoefExpr": "165",
                         "boxDeliveryLiter": "14,03",
@@ -426,7 +397,6 @@
                         "warehouseName": "Краснодар"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -440,7 +410,6 @@
                         "warehouseName": "Маркетплейс: Южный федеральный округ СГТ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -454,7 +423,6 @@
                         "warehouseName": "Маркетплейс: Южный федеральный округ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "150",
                         "boxDeliveryBase": "52,5",
                         "boxDeliveryCoefExpr": "150",
                         "boxDeliveryLiter": "12,75",
@@ -468,7 +436,6 @@
                         "warehouseName": "Невинномысск"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -482,7 +449,6 @@
                         "warehouseName": "Маркетплейс: Северо-Кавказский федеральный округ СГТ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -496,7 +462,6 @@
                         "warehouseName": "Маркетплейс: Северо-Кавказский федеральный округ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "195",
                         "boxDeliveryBase": "68,25",
                         "boxDeliveryCoefExpr": "195",
                         "boxDeliveryLiter": "16,58",
@@ -510,7 +475,6 @@
                         "warehouseName": "Казань"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -524,7 +488,6 @@
                         "warehouseName": "Маркетплейс: Приволжский федеральный округ СГТ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -538,7 +501,6 @@
                         "warehouseName": "Маркетплейс: Приволжский федеральный округ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "35",
                         "boxDeliveryCoefExpr": "100",
                         "boxDeliveryLiter": "8,5",
@@ -552,7 +514,6 @@
                         "warehouseName": "Сарапул"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "35",
                         "boxDeliveryCoefExpr": "100",
                         "boxDeliveryLiter": "8,5",
@@ -566,7 +527,6 @@
                         "warehouseName": "Кузнецк СГТ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "200",
                         "boxDeliveryBase": "70",
                         "boxDeliveryCoefExpr": "200",
                         "boxDeliveryLiter": "17",
@@ -580,7 +540,6 @@
                         "warehouseName": "Екатеринбург - Испытателей 14г"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "150",
                         "boxDeliveryBase": "52,5",
                         "boxDeliveryCoefExpr": "150",
                         "boxDeliveryLiter": "12,75",
@@ -594,7 +553,6 @@
                         "warehouseName": "Екатеринбург - Перспективный 12"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -608,7 +566,6 @@
                         "warehouseName": "Маркетплейс: Уральский федеральный округ СГТ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -622,7 +579,6 @@
                         "warehouseName": "Маркетплейс: Уральский федеральный округ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "35",
                         "boxDeliveryCoefExpr": "100",
                         "boxDeliveryLiter": "8,5",
@@ -636,7 +592,6 @@
                         "warehouseName": "Челябинск СГТ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "430",
                         "boxDeliveryBase": "150,5",
                         "boxDeliveryCoefExpr": "430",
                         "boxDeliveryLiter": "36,55",
@@ -650,7 +605,6 @@
                         "warehouseName": "Новосибирск"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -664,7 +618,6 @@
                         "warehouseName": "Маркетплейс: Сибирский федеральный округ СГТ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -678,7 +631,6 @@
                         "warehouseName": "Маркетплейс: Сибирский федеральный округ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "35",
                         "boxDeliveryCoefExpr": "100",
                         "boxDeliveryLiter": "8,5",
@@ -692,7 +644,6 @@
                         "warehouseName": "Новосибирск СГТ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "220",
                         "boxDeliveryBase": "77",
                         "boxDeliveryCoefExpr": "220",
                         "boxDeliveryLiter": "18,7",
@@ -706,7 +657,6 @@
                         "warehouseName": "Хабаровск"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -720,7 +670,6 @@
                         "warehouseName": "Маркетплейс: Дальневосточный федеральный округ СГТ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -734,7 +683,6 @@
                         "warehouseName": "Маркетплейс: Дальневосточный федеральный округ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -748,7 +696,6 @@
                         "warehouseName": "Маркетплейс: Армения СГТ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "35",
                         "boxDeliveryCoefExpr": "100",
                         "boxDeliveryLiter": "8,5",
@@ -762,7 +709,6 @@
                         "warehouseName": "СЦ Ереван"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -776,7 +722,6 @@
                         "warehouseName": "Маркетплейс: Беларусь СГТ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -790,7 +735,6 @@
                         "warehouseName": "Маркетплейс: Беларусь"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "35",
                         "boxDeliveryCoefExpr": "100",
                         "boxDeliveryLiter": "8,5",
@@ -804,7 +748,6 @@
                         "warehouseName": "СЦ Гомель 2"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "125",
                         "boxDeliveryBase": "43,75",
                         "boxDeliveryCoefExpr": "125",
                         "boxDeliveryLiter": "10,63",
@@ -818,7 +761,6 @@
                         "warehouseName": "Атакент"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "145",
                         "boxDeliveryBase": "50,75",
                         "boxDeliveryCoefExpr": "145",
                         "boxDeliveryLiter": "12,33",
@@ -832,7 +774,6 @@
                         "warehouseName": "Астана Карагандинское шоссе"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -846,7 +787,6 @@
                         "warehouseName": "Маркетплейс: Казахстан СГТ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -860,7 +800,6 @@
                         "warehouseName": "Маркетплейс: Казахстан"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -874,7 +813,6 @@
                         "warehouseName": "Маркетплейс: Кыргызстан СГТ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -888,7 +826,6 @@
                         "warehouseName": "Маркетплейс: Кыргызстан"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -902,7 +839,6 @@
                         "warehouseName": "Маркетплейс: Узбекистан СГТ"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "-",
                         "boxDeliveryCoefExpr": "-",
                         "boxDeliveryLiter": "-",
@@ -916,7 +852,6 @@
                         "warehouseName": "Маркетплейс: Узбекистан"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "35",
                         "boxDeliveryCoefExpr": "100",
                         "boxDeliveryLiter": "8,5",
@@ -930,7 +865,6 @@
                         "warehouseName": "СЦ Тбилиси 3 Бонд"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "35",
                         "boxDeliveryCoefExpr": "100",
                         "boxDeliveryLiter": "8,5",
@@ -944,7 +878,6 @@
                         "warehouseName": "SC Tbilisi"
                     },
                     {
-                        "boxDeliveryAndStorageExpr": "100",
                         "boxDeliveryBase": "35",
                         "boxDeliveryCoefExpr": "100",
                         "boxDeliveryLiter": "8,5",

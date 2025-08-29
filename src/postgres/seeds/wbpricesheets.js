@@ -3,10 +3,9 @@
  * @returns {Promise<void>}
  */
 export async function seed(knex) {
-    await knex("wb_prices_sheets")
+    await knex("wb_prices")
         .insert([
             {
-                code: 'Центральный_федеральный_округ_Коледино',
                 date: '2025-08-01',
                 box_delivery_base: 63,
                 box_delivery_coef_expr: 180,
@@ -18,7 +17,6 @@ export async function seed(knex) {
                 warehouse_name: "Коледино"
               },
               {
-                code: 'Центральный_федеральный_округ_Сабурово',
                 date: '2025-08-01',
                 box_delivery_base: 45.5,
                 box_delivery_coef_expr: 130,
@@ -30,6 +28,5 @@ export async function seed(knex) {
                 warehouse_name: "Сабурово"
               }
         ])
-        .onConflict(["id"])
-        .ignore();
+        .onConflict(["date", "geo_name", "warehouse_name"]).merge();
 }

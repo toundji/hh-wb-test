@@ -1,27 +1,19 @@
 import { WbPriceDb, WbPriceDbDto } from "#dto/price.dto.js";
 import knex from "#postgres/knex.js";
 
-function save(data: WbPriceDbDto) : Promise<WbPriceDb> {
-    return knex("wb_prices").insert<WbPriceDb>(data)
-    .onConflict(["code", "fetched_at"]).merge();
-}
-
 async function saveAll( data: WbPriceDbDto[]): Promise<WbPriceDb[]> {
     return knex("wb_prices").insert<WbPriceDb[]>(data)
-    .onConflict(["code", "fetched_at"]).merge();
+    .onConflict([ "date", "geo_name", "warehouse_name",]).merge();
 }
 
-async function findAll(): Promise<WbPriceDb[]> {
-    return knex("wb_prices").select("*").orderBy("created_at", "desc");
-}
 
-async function findByCode(code: string): Promise<WbPriceDb[]> {
-    return knex("wb_prices").select("*").where({ code }).orderBy("fetched_at", "desc");
-}
+export async function  getByDateSortedByCoefAsc (date: string): Promise<WbPriceDb[]>  {
+    return knex<WbPriceDb>("wb_prices").select("*")
+      .where({ date: date })
+      .orderBy([{ column: "box_delivery_coef_expr", order: "asc" }]);
+  }
 
 export default {
-    save,
     saveAll,
-    findAll,
-    findByCode,
+    getByDateSortedByCoefAsc,
 };

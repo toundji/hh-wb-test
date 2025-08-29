@@ -44,7 +44,6 @@ services:
 
     restart: unless-stopped
 
-
   app:
     container_name: app
 
@@ -59,6 +58,13 @@ services:
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       PORT: ${APP_PORT}
+
+      GOOGLE_PRIVATE_KEY: ${GOOGLE_PRIVATE_KEY}
+      GOOGLE_CLIENT_EMAIL: ${GOOGLE_CLIENT_EMAIL}
+      DEFAULT_SPREADSHEETS_ID: ${DEFAULT_SPREADSHEETS_ID}
+      WB_API_URL: ${WB_API_URL}
+      WB_API_TOKEN: ${WB_API_TOKEN}
+
       NODE_ENV: production
 
     ports:
@@ -67,6 +73,8 @@ services:
     depends_on:
       postgres:
         condition: service_healthy
+      # json-server:
+      #   condition: service_started
     networks:
       - postgres-net
 
@@ -76,5 +84,15 @@ services:
         max-size: 10m
         max-file: 5
 
-    command: [ "npm", "run", "start" ]
+    command: ["npm", "run", "start"]
     restart: unless-stopped
+
+  # json-server:
+  #   container_name: json-server
+  #   image: clue/json-server
+  #   volumes:
+  #     - ./db.json:/data/db.json
+  #   ports:
+  #     - "3000:80"
+  #   networks:
+  #     - postgres-net
